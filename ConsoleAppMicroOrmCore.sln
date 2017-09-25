@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppMicroOrmCore.1.1", "ConsoleAppMicroOrmCore.1.1\ConsoleAppMicroOrmCore.1.1.csproj", "{DE12CD3A-B124-4448-BD94-8DFB34A50E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppMicroOrmCore.2.0", "ConsoleAppMicroOrmCore.2.0\ConsoleAppMicroOrmCore.2.0.csproj", "{375B5270-3E83-4929-AD6A-DDEE7D08FDB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppMicroOrmCore.2.0", "ConsoleAppMicroOrmCore.2.0\ConsoleAppMicroOrmCore.2.0.csproj", "{375B5270-3E83-4929-AD6A-DDEE7D08FDB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{DC81F87E-628D-4795-9E7A-879FD6030218}"
+	ProjectSection(SolutionItems) = preProject
+		Items\AdventureWorks2014_Data.rar = Items\AdventureWorks2014_Data.rar
+		Items\Micro Orm v2\Entity Framework Core 2 VS Micro ORM performances.pptx = Items\Micro Orm v2\Entity Framework Core 2 VS Micro ORM performances.pptx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -60,28 +60,28 @@ namespace ConsoleAppMicroOrmCore._2._0
             Console.WriteLine("EF : " + watch.ElapsedMilliseconds);
 
             //Dapper
-            var dapperquery = new DapperQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataDapper = dapperquery.GetOrders();
-            watch.Stop();
-            Console.WriteLine("Dapper: " + watch.ElapsedMilliseconds);
+            //var dapperquery = new DapperQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataDapper = dapperquery.GetOrders();
+            //watch.Stop();
+            //Console.WriteLine("Dapper: " + watch.ElapsedMilliseconds);
 
             //Orm lite
-            var ormLiteQuery = new OrmLiteQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataormLite = ormLiteQuery.GetOrders();
-            watch.Stop();
-            Console.WriteLine("Orm Lite: " + watch.ElapsedMilliseconds);
+            //var ormLiteQuery = new OrmLiteQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataormLite = ormLiteQuery.GetOrders();
+            //watch.Stop();
+            //Console.WriteLine("Orm Lite: " + watch.ElapsedMilliseconds);
 
             //Npoco
-            var nPocoQuery = new NPocoQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataNPoco = nPocoQuery.GetOrders();
-            watch.Stop();
-            Console.WriteLine("NPoco : " + watch.ElapsedMilliseconds);
+            //var nPocoQuery = new NPocoQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataNPoco = nPocoQuery.GetOrders();
+            //watch.Stop();
+            //Console.WriteLine("NPoco : " + watch.ElapsedMilliseconds);
 
 
         }
@@ -99,28 +99,28 @@ namespace ConsoleAppMicroOrmCore._2._0
             Console.WriteLine("EF : " + watch.ElapsedMilliseconds);
 
             //Dapper
-            var dapperquery = new DapperQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataDapper = dapperquery.GetOrders(calls);
-            watch.Stop();
-            Console.WriteLine("Dapper : " + watch.ElapsedMilliseconds);
+            //var dapperquery = new DapperQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataDapper = dapperquery.GetOrders(calls);
+            //watch.Stop();
+            //Console.WriteLine("Dapper : " + watch.ElapsedMilliseconds);
 
             //Orm lite
-            var ormLiteQuery = new OrmLiteQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataormLite = ormLiteQuery.GetOrders(calls);
-            watch.Stop();
-            Console.WriteLine("Orm Lite: " + watch.ElapsedMilliseconds);
+            //var ormLiteQuery = new OrmLiteQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataormLite = ormLiteQuery.GetOrders(calls);
+            //watch.Stop();
+            //Console.WriteLine("Orm Lite: " + watch.ElapsedMilliseconds);
 
             //nPOCO
-            var nPocoQuery = new NPocoQueries();
-            watch = new Stopwatch();
-            watch.Start();
-            var dataNPoco = nPocoQuery.GetOrders(calls);
-            watch.Stop();
-            Console.WriteLine("NPoco : " + watch.ElapsedMilliseconds);
+            //var nPocoQuery = new NPocoQueries();
+            //watch = new Stopwatch();
+            //watch.Start();
+            //var dataNPoco = nPocoQuery.GetOrders(calls);
+            //watch.Stop();
+            //Console.WriteLine("NPoco : " + watch.ElapsedMilliseconds);
         }
     }
 }
