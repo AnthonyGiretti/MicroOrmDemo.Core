@@ -1,2 +1,2 @@
 # MicroOrmDemo.Core
-Samples of AdventureWork repository with implementation in C# / .Net with many MicroOrms
+Samples of AdventureWork repository with implementation in C# / .Net Core with many MicroOrms
